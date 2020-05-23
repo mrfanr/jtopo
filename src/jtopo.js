@@ -1865,7 +1865,7 @@
                     this.borderColor = "22,124,255",
                     this.fillColor = "22,124,255",
                     this.shadow = !1,
-                    this.shadowBlur = 5,
+                    this.shadowBlur = 3,
                     this.shadowColor = "rgba(0,0,0,0.5)",
                     this.shadowOffsetX = 3,
                     this.shadowOffsetY = 6,
@@ -3247,7 +3247,7 @@
                 this.paintMouseover = function () {
                 },
                 this.paintSelected = function (a) {
-                    a.shadowBlur = 10,
+                    a.shadowBlur = 3,
                         a.shadowColor = "rgba(0,0,0,1)",
                         a.shadowOffsetX = 0,
                         a.shadowOffsetY = 0
